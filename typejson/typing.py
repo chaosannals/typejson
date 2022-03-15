@@ -24,7 +24,7 @@ class TypeJsonTyper:
         # 去类型化处理
         self.detype_processes = [
             ('dt', lambda v: datetime.strptime(v, '%Y-%m-%d %H:%M:%S')),
-            ('d', lambda v: date.strptime(v, '%Y-%m-%d')),
+            ('d', lambda v: datetime.strptime(v, '%Y-%m-%d').date()),
             ('s', lambda v: v),
             ('n', lambda v: Decimal(v)),
             ('b', lambda v: bytes.fromhex(v)),

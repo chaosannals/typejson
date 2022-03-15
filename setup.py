@@ -3,7 +3,7 @@ from ran import fs
 
 setuptools.setup(
     name='typejson',
-    version='0.0.1',
+    version='0.0.2',
     description='yet a type json library.',
     long_description=fs.load('readme.md'),
     long_description_content_type='text/markdown',

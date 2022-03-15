@@ -7,7 +7,7 @@ class TypeJsonSerializer:
     TypeJson 序列化
     '''
 
-    def __init__(self, typer):
+    def __init__(self, typer=None):
         self.typer = typer if typer is not None else TypeJsonTyper()
 
     def dumps(self, raw, **args) -> str:
