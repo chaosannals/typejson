@@ -1,4 +1,4 @@
-# typejson[https://github.com/chenshenchao/typejson]
+# [typejson](https://github.com/chenshenchao/typejson)
 
 ## 示例
 
